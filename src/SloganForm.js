@@ -18,7 +18,7 @@ export default function SloganForm({ setSlogans, slogans }) {
   return (
     <section>
       {/* on submit, call the handleSubmit function, defined above */}
-      <form on onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit}>
         Add a slogan to the list!
         {/* on change, set the sloganInput in state to be the input value */}
         {/* also, weirdly, set the value of this input to the sloganInput tracked in state to make this a 'controlled' form input */}
